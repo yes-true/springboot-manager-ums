@@ -1,0 +1,14 @@
+body,html{
+	font-size: 1rem;
+	font-family:"幼圆";
+	height: 100%;
+	width: 100%;
+}
+a{text-decoration:none;color: #000000;}
+a:hover{text-decoration: none; color:#DC3545;}
+header {color: #FFFFFF;}
+.badgeSize{width: 12px;height: 12px; font-size: 8px;position: absolute;bottom: 8px;}
+.collapse a:hover{text-decoration: none;color: #DC3545;border-bottom: 3px solid #DC3545;}
+.navSize{width: 180px; background-color: #F8F9FA; height:100%; overflow: auto;}/*根据导航高度自适应，自动加载滚动条*/ 
+.nav-item>a:hover{text-decoration: none; color:#DC3545;}
+/* .collapse a{padding:5px;} */

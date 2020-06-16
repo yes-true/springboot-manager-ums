@@ -1,0 +1,21 @@
+/* 注册登录样式 */
+body,html{
+	font-size: 16px;
+	font-family: "幼圆";
+}
+.form-control{
+	width: 350px;
+}
+.form-control:focus{
+	border-color: #17A2B8;
+	box-shadow: 0 0 0 0.2rem rgba(23,162,184,0.6);
+}
+.formColor a{
+	color: #F8F9FA;
+}
+.codeA a{
+	text-decoration: none;
+}
+.codeA a:hover{
+	color: #17A2B8;
+}

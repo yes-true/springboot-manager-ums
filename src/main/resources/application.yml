@@ -1,0 +1,10 @@
+server:
+  port: 9999
+
+spring:
+  thymeleaf:
+    cache: false  #关闭缓存 方便测试
+    encoding: UTF-8 #设置编码格式
+    mode: HTML  #html模板
+#设置thymeleaf模板引擎
+

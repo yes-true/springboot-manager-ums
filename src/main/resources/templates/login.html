@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}"/>
+	<link rel="stylesheet" type="text/css" href="../static/css/login.css" th:href="@{/css/login.css}"/>
+	<title>欢迎登陆</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row d-flex justify-content-center mt-5 pt-5">
+			<div class="w-sm-25 d-flex justify-content-center align-items-center border p-5 rounded">
+				<form action="">
+					<div class="mb-3 pb-2">
+						<h4>欢迎登录</h4>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="手机/邮箱">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="密码">
+					</div>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" name="" id="cBox">
+							<label class="form-check-label" for="cBox"><small>下次自动登录</small></label>
+						</div>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-info btn-block" type="button">登录</button>
+					</div>
+					<div class="form-group">
+						<a href=""><small>忘记密码?</small></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>	
+	
+	
+	
+	<!-- ********************** -->
+	<script src="../static/js/jquery-3.3.1.min.js" th:src="@{/js/jquery-3.3.1.min.js}" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}" type="text/javascript" charset="utf-8"></script>
+	<!-- 业务逻辑 -->
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head >
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body data-th-fragment="left">
+    <!-- left nav -->
+    <nav class="navbar navbar-light bg-light border-right navSize" id="navHide">
+        <div class="mb-auto " >
+            <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#a">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        用户管理
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul  class="collapse" id="a">
+                        <li class="mt-1"><a href="">用户管理</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#"  data-toggle="collapse" data-target="#b">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        权限管理
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul class="collapse" id="b">
+                        <li><a href="">角色管理</a></li>
+                        <li><a href="">权限列表</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#"  data-toggle="collapse" data-target="#c">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        商品管理
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul class="collapse" id="c">
+                        <li><a href="">商品列表</a></li>
+                        <li><a href="">分类参数</a></li>
+                        <li><a href="">商品分类</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link " href="#"  data-toggle="collapse" data-target="#d">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        订单管理
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul class="collapse" id="d">
+                        <li><a href="">品牌管理</a></li>
+                        <li><a href="">产品列表</a></li>
+                        <li><a href="">产品分类</a></li>
+                    </ul>
+                </li>
+                <!--<li class="nav-item ">
+                    <a class="nav-link " href="#"  data-toggle="collapse" data-target="#e">
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        订单管理
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul class="collapse" id="e">
+                        <li><a href="">图片管理</a></li>
+                    </ul>
+                </li>-->
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#"  data-toggle="collapse" data-target="#f">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>
+                        数据统计
+                        <i class="fa fa-angle-down " aria-hidden="true"></i>
+                    </a>
+                    <ul class="collapse" id="f">
+                        <li><a href="">系统设置</a></li>
+                        <li><a href="">栏目管理</a></li>
+                        <li><a href="">数据字典</a></li>
+                        <li><a href="">系统日子</a></li>
+                        <li><a href="">字典</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+</html>
