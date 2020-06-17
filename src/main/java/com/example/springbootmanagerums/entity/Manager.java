@@ -16,4 +16,5 @@ public class Manager {
     private String mg_mobile;
     private String mg_email;
     private int mg_state;
+    private Role role;
 }
