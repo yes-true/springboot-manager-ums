@@ -11,7 +11,7 @@ public class Manager {
 
     private int mg_id;
     private String mg_name;
-    private char mg_pwd;
+    private String mg_pwd;
     private int mg_time;
     private String mg_mobile;
     private String mg_email;

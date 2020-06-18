@@ -2,9 +2,15 @@ server:
   port: 9999
 
 spring:
+  #设置thymeleaf模板引擎
   thymeleaf:
     cache: false  #关闭缓存 方便测试
     encoding: UTF-8 #设置编码格式
     mode: HTML  #html模板
-#设置thymeleaf模板引擎
+  #设置mysql连接数据源
+  datasource:
+    url: jdbc:mysql://127.0.0.1/mydb?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
 
